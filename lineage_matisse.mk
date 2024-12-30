@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from generic device
-$(call inherit-product, device/xiaomi/generic/device.mk)
+# Inherit from matisse device
+$(call inherit-product, device/xiaomi/matisse/device.mk)
 
-PRODUCT_DEVICE := generic
-PRODUCT_NAME := lineage_generic
+PRODUCT_DEVICE := matisse
+PRODUCT_NAME := lineage_matisse
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := mainline
 PRODUCT_MANUFACTURER := xiaomi
