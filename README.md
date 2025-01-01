@@ -1,6 +1,12 @@
 Copyright (C) 2024 The LineageOS Project
 # Device tree for the Redmi K50Pro (matisse)
 
+source build/envsetup.sh
+
+lunch lineage_matisse-ap2a-userdebug
+
+m bacon
+
 The Redmi K50Pro (codenamed _"matisse"_) is a high-end, mid-range smartphone from Xiaomi.
 
 It was released in March 2022.
